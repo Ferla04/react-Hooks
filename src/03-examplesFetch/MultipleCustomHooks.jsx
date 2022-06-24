@@ -1,4 +1,3 @@
-import React from 'react'
 import { useCounter, useFetch } from '../hooks'
 import { LoadingQuote } from './LoadingQuote'
 import { Quote } from './Quote'
