@@ -13,11 +13,13 @@ import './index.css'
 // import { MemoHook } from './06-memos/useMemo/MemoHook'
 // import { Memorize } from './06-memos/primer-Ejemplo/Memorize'
 // import { CallbackHook } from './06-memos/useCallback/CallbackHook'
-import { Padre } from './07-tarea-memo/Padre'
+// import { Padre } from './07-tarea-memo/Padre'
+// import './08-useReducer/intro-reducer' // --> INTRO REDUCER si se usa comentar las lineas React dom
+import { TodoApp } from './08-useReducer/toDo-App/TodoApp'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-    <Padre />
+    <TodoApp />
   // </React.StrictMode>
 )
