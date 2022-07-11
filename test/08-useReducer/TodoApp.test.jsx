@@ -27,7 +27,7 @@ describe('Pruebas en <TodoApp />', () => {
     expect( screen.getByRole('textbox') ).toBeTruthy()
 
 
-    screen.debug()
+    // screen.debug()
 
   })
 
